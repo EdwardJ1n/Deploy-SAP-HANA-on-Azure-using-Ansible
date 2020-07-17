@@ -4,12 +4,21 @@
   connection: local
   gather_facts: false
 
+  vars:
+    resource_group: hanaResourceGroup
+    deployment_name: hanaDeployment
+
   tasks: 
+    - name: Create a resource group
+      azure_rm_resourcegroup:
+        name: "{{ resource_group }}"
+        location: eastus
+
     # Create or update a template deployment based on uris using parameter and template links
     - name: Create Azure Deploy
       azure_rm_deployment:
-        resource_group: hanaResourceGroup
-        deployment_name: hanaDeployment
+        resource_group: "{{ resource_group }}"
+        deployment_name: "{{ deployment_name }}"
         template_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.json'
         parameters_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.parameters.json'
 ...
