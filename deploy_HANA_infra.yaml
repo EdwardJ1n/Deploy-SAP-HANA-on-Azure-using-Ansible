@@ -10,6 +10,6 @@
       azure_rm_deployment:
         resource_group: hanaResourceGroup
         deployment_name: hanaDeployment
-        template_link: './azuredeploy.json'
-        parameters_link: './azuredeploy.parameters.json'
+        template_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.json'
+        parameters_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.parameters.json'
 ...
