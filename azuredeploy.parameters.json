@@ -3,10 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUsername": {
-      "value": "GEN-UNIQUE"
+      "value": "ansibleuser"
     },
     "adminPasswordOrKey": {
-      "value": "GEN-PASSWORD"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDiDXCwqlqFrlTq9c1/kunC9vGDyCX6MwuEGyY0ph0b9HVAas3M3hSKaPk80/jeBGFs5fpaVLBkmxIg905XXGXKuIOQr+QaIWq19wLGvyM3ITO7rRos7LihBKnEJCTLZT2phONE/kakSGLksH7RH+rvohSXBxl6ncKB9InM/KPIwNF5VrX3ebcE+uU9C1XgfV55VrvA77xCssSghYpl1J45rRAAg/4OadbS7v7ervXbBEOnsvSddypDlz+n3ZUiwq0UWG6jakL40zXpxrzk0iwxucNoGYVKT/Bgz5qm9f7BRr4D4UZwper5HtMN3jYkWR+MnPdyRQTa3iZFF3iFHCuCHb5WJsSFqM36HzTpeELSMCXAksK2ANOHhbVp5QPUPzVwkKNBTWgevrBgtXAIZZWI4xMpXWennwtiIPQjZyJj+nsPwMYfOVbVqikjwRnzHWbb8UWnKNhaxI6EhUet0eLsW6PgDaiNB/UoWdz2xxUWoUTR/yWbeWAfM/4pxnsz34E= root@dhcp-192-56.pek.redhat.com"
+    },
+    "location": {
+      "value": "West US"
     }
   }
 }
