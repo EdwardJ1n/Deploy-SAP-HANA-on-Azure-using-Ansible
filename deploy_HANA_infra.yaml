@@ -7,7 +7,8 @@
   vars:
     resource_group: hanaResourceGroup
     deployment_name: hanaDeployment
-
+  
+  task: 
     # Create or update a template deployment based on uris using parameter and template links
     - name: Create Azure Deploy
       azure_rm_deployment:
