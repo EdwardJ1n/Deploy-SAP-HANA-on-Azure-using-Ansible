@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "SAP HANA System Replication (managed disk)",
+  "description": "This template allows you to deploy 2 VMs using a operating system that is supported by SAP and Managed Disks.",
+  "summary": "This template takes a minimum amount of parameters and deploys 2 VMs configuration that is customized for use with SAP HANA using Managed Disks.",
+  "githubUsername": "mones84",
+  "dateUpdated": "2020-07-15"
+}

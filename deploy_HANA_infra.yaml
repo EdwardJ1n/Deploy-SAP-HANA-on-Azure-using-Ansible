@@ -1,0 +1,15 @@
+---
+- name: Deploy Azure ARM template for SAP HANA 
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks: 
+    # Create or update a template deployment based on uris using parameter and template links
+    - name: Create Azure Deploy
+      azure_rm_deployment:
+        resource_group: hanaResourceGroup
+        deployment_name: hanaDeployment
+        template_link: './azuredeploy.json'
+        parameters_link: './azuredeploy.parameters.json'
+...
