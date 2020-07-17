@@ -107,9 +107,9 @@
     "images": {
       "RHEL 8": {
         "sku": "8.1",
-        "offer": "RHEL-SAP",
+        "offer": "RHEL",
         "publisher": "RedHat",
-        "OSType": "Linux"
+        "version": "latest"
       }
     },
     "internalOSType": "[variables('images')[parameters('osType')].OSType]",
