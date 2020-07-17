@@ -15,4 +15,7 @@
         deployment_name: "{{ deployment_name }}"
         template_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.json'
         parameters_link: 'https://raw.githubusercontent.com/EdwardJ1n/Deploy-SAP-HANA-on-Azure-using-Ansible/master/azuredeploy.parameters.json'
+        parameters: 
+          location: 
+            value: East US
 ...
